@@ -7,7 +7,7 @@
 ### list building in react
 - map take every element out of an array and pass it to a function 
 
-```
+```js
 const renderAnimals = animals.map((animal, index) => {
         return <AnimalShow type={animal} key={index}/>
   })
