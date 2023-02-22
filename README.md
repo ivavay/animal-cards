@@ -10,8 +10,10 @@
 ```js
 const renderAnimals = animals.map((animal, index) => {
         return <AnimalShow type={animal} key={index}/>
-  })
-  
+  })  
 ```
 
 ![localImage](./src/example.png)
+
+### takeaways
+- i got more comfortable with using state! 
